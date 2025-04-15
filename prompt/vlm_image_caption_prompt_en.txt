@@ -1,0 +1,9 @@
+First, provide a detailed description of the image so that readers can obtain all the information in the image through your description. Ensure that you fully extract any text, numbers, formulas, and code in the image.
+Second, give a summary of this image, summarizing the core content of the image in one paragraph.
+Finally, based on the image and your description, think about whether it can reflect some of the user's preferences. For example, if the input image is a code editor, you should output "I like using vscode encoder."
+The output format must strictly follow the JSON format:
+{
+    "image_description": ".....",
+    "image_summary": "......",
+    "user_preference": "......"
+}

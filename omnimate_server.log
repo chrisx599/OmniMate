@@ -1,0 +1,782 @@
+2025-04-15 06:58:33,238 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 06:58:42,877 - root - INFO - memory graph initialized
+2025-04-15 06:58:42,885 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.211.222:5000
+2025-04-15 06:58:42,885 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 06:58:42,888 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 06:58:47,480 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 06:58:57,039 - root - INFO - memory graph initialized
+2025-04-15 06:58:57,044 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 06:58:57,044 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 07:00:37,397 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-15 07:00:37,398 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 07:00:37] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 07:01:55,642 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-15 07:01:55,644 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 07:01:55] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 07:02:36,451 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-15 07:02:36,453 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 07:02:36] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 07:04:10,129 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-15 07:04:10,130 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 07:04:10] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 07:05:12,555 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:05:13,108 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:05:13,132 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:05:13,134 - root - INFO - Total existing memories: 0
+2025-04-15 07:05:13,643 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:05:13,644 - root - INFO - {'id': '0', 'text': 'LiangZhengyang偏好编程开发环境，具体为使用Python进行Web开发和文件上传处理。', 'event': 'ADD'}
+2025-04-15 07:05:13,651 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:05:13,762 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 07:05:14,549 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:05:14,575 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:05:14,594 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:05:14,612 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:05:14,630 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:05:14,647 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:05:15,085 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:05:15,125 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 07:05:15] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 07:07:41,278 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:07:41,441 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:07:41,460 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:07:41,462 - root - INFO - Total existing memories: 1
+2025-04-15 07:07:41,758 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:07:41,972 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:07:41,973 - root - INFO - {'id': '0', 'text': 'LiangZhengyang偏好编程开发环境，具体为使用Python进行Web开发和文件上传处理。', 'event': 'NONE'}
+2025-04-15 07:07:41,973 - root - INFO - NOOP for Memory.
+2025-04-15 07:07:42,262 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:07:42,278 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:07:42,297 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:07:42,963 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:07:43,053 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:07:43,068 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:07:43,257 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:07:43,271 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:07:43,331 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 07:07:43] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 07:59:08,978 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:59:09,160 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:59:09,183 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:09,185 - root - INFO - Total existing memories: 0
+2025-04-15 07:59:09,425 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:59:09,589 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:59:09,591 - root - INFO - {'id': '0', 'text': 'Interested in homepage content of B站', 'event': 'ADD'}
+2025-04-15 07:59:09,591 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 07:59:09,592 - root - ERROR - Error in new_memories_with_actions: attempt to write a readonly database
+2025-04-15 07:59:10,313 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:59:10,330 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:10,354 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:10,940 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 07:59:10,956 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:10,971 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:11,132 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:11,147 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:11,221 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:11,236 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 07:59:11,283 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 07:59:11] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:08:27,505 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:08:27,506 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:08:27,507 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:08:29,886 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 08:08:34,441 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:08:43,918 - root - INFO - memory graph initialized
+2025-04-15 08:08:43,923 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 08:08:43,923 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 08:09:07,864 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:09:08,366 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:09:08,389 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:09:08,391 - root - INFO - Total existing memories: 0
+2025-04-15 08:09:08,704 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:09:08,860 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:09:08,861 - root - INFO - {'id': '0', 'text': 'James偏好访问的网站是manga.bilibili.com，内容涉及动漫漫画。', 'event': 'ADD'}
+2025-04-15 08:09:08,967 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:09:09,508 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:09:09,526 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:09:09,712 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:09:09,731 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:09:10,031 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:09:10,090 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:09:10,104 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:09:10,207 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:09:10,221 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:09:10,297 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:09:10] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:11:31,017 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:11:40,789 - root - INFO - memory graph initialized
+2025-04-15 08:11:40,795 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.211.222:5000
+2025-04-15 08:11:40,796 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 08:11:40,799 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 08:11:45,405 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:11:55,226 - root - INFO - memory graph initialized
+2025-04-15 08:11:55,232 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 08:11:55,232 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 08:12:30,469 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:12:30,897 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:12:30,916 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:12:30,919 - root - INFO - Total existing memories: 0
+2025-04-15 08:12:31,096 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:12:31,307 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:12:31,308 - root - INFO - {'id': '0', 'text': '喜欢哔哩哔哩漫画', 'event': 'ADD'}
+2025-04-15 08:12:31,429 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:12:31,772 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:12:31,788 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:12:32,343 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:12:32,346 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:12:32] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:14:12,451 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:14:12,685 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:14:12,703 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:14:12,706 - root - INFO - Total existing memories: 1
+2025-04-15 08:14:12,960 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:14:13,345 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:14:13,360 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:14:13,378 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:14:13,411 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:14:13,411 - root - INFO - {'id': '0', 'text': '喜欢哔哩哔哩漫画', 'event': 'NONE'}
+2025-04-15 08:14:13,412 - root - INFO - NOOP for Memory.
+2025-04-15 08:14:13,412 - root - INFO - {'id': '1', 'text': '查询哔哩哔哩漫画网站的畅销热门漫画内容', 'event': 'ADD'}
+2025-04-15 08:14:13,412 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:14:14,309 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:14:14,325 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:14:14,340 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:14:14,408 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:14:14] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:14:53,628 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:14:53,629 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:14:53,629 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:14:55,803 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 08:15:00,324 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:15:10,031 - root - INFO - memory graph initialized
+2025-04-15 08:15:10,036 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 08:15:10,037 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 08:15:13,220 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:15:13,221 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:15:13,221 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:15:15,017 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 08:15:19,580 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:15:29,129 - root - INFO - memory graph initialized
+2025-04-15 08:15:29,134 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 08:15:29,135 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 08:15:31,835 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:15:31,838 - root - INFO - response: ```json
+{
+    "image_description": "这是一张哔哩哔哩漫画页面的截图，显示了多个漫画封面及其标题和热度指数。页面顶部有导航栏，包括分类标签如冒险、热血、搞笑等。页面中部展示了五部漫画封面，分别是《STEEL BALL RUN》、《乔乔的奇妙冒险 彩色版》、《我家老婆来自一千年前》、《航海王》和《无情大佬被玩弄后只会嘤...》。每个封面下方都有相应的热度指数，例如《STEEL BALL RUN》有107人热议中，《乔乔的奇妙冒险 彩色版》有77人热议中等。页面右侧有一个推荐列表，包括畅销热门、全网热议、完结佳作和排行榜等内容。",
+    "image_summary": "哔哩哔哩漫画页面展示了几部热门漫画的封面及热度指数，页面右侧有推荐列表。",
+    "user_preference": "哔哩哔哩漫画网站上的漫画内容"
+}
+```
+2025-04-15 08:15:32,288 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:15:32,306 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:15:32,308 - root - INFO - Total existing memories: 0
+2025-04-15 08:15:32,561 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:15:32,734 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:15:32,735 - root - INFO - {'id': '0', 'text': '询问关于哔哩哔哩漫画网站上的漫画内容', 'event': 'ADD'}
+2025-04-15 08:15:32,849 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:15:32,917 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:15:32,933 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:15:32,952 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:15:33,276 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:15:33,324 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:15:33,338 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:15:33,407 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:15:33] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:19:28,930 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:19:28,931 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:19:28,931 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:19:28,932 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 08:19:30,807 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 08:19:35,390 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:19:44,952 - root - INFO - memory graph initialized
+2025-04-15 08:19:44,957 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 08:19:44,958 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 08:19:57,873 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:19:57,875 - root - INFO - response: ```json
+{
+    "image_description": "这是一张哔哩哔哩漫画页面的截图，显示了多个漫画封面及其相关信息。页面顶部有导航栏，包括分类标签如冒险、热血、搞笑等。页面中部展示了五个热门漫画封面，分别是《STEEL BALL RUN》、《乔乔的奇妙冒险 彩色版》、《我家老婆来自一千年前》、《航海王》和《无情大佬被玩弄后只会嘤...》。每个封面下方都有一个标签，如战斗、学生、美女等，并且显示了当前的热议人数。页面底部有一个标题“完结佳作”，并展示了五个完结漫画的封面。",
+    "image_summary": "哔哩哔哩漫画页面展示了一系列热门和完结的漫画封面及其相关信息。",
+    "user_preference": "哔哩哔哩漫画网站上的热门和完结漫画内容"
+}
+```
+2025-04-15 08:19:58,350 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:19:58,369 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:19:58,371 - root - INFO - Total existing memories: 0
+2025-04-15 08:19:58,820 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:19:58,821 - root - INFO - {'id': '0', 'text': '查询哔哩哔哩漫画网站上的热门和完结漫画内容', 'event': 'ADD'}
+2025-04-15 08:19:58,859 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:19:58,937 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:19:59,572 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:19:59,588 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:19:59,608 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:19:59,627 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:19:59,645 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:20:00,440 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:20:00,455 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:20:00,469 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:20:00,632 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:20:00,646 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:20:00,712 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:20:00,726 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:20:00,778 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:20:00] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:22:09,047 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:22:09,047 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:22:09,048 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:22:09,049 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:22:11,361 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 08:22:15,930 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:22:25,502 - root - INFO - memory graph initialized
+2025-04-15 08:22:25,507 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 08:22:25,507 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 08:23:02,834 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:23:02,834 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:23:02,835 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:23:04,755 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 08:23:09,284 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:23:18,968 - root - INFO - memory graph initialized
+2025-04-15 08:23:18,973 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 08:23:18,973 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 08:23:55,626 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:23:55,629 - root - INFO - response: ```json
+{
+    "image_description": "这是一张网页截图，显示了一个名为《我家老婆来自一千年前》的漫画页面。页面顶部有一个导航栏，包括主站、首页、分类、更新、排行榜等选项。页面中间部分展示了漫画的封面图，封面上有两个人物，背景是蓝天白云。封面上方有漫画的标题和作者信息，下方有更新至372话的信息。页面底部左侧有一个章节列表，列出了从00到07的章节标题。右侧推荐了其他漫画。页面顶部有一个浏览器地址栏，显示了当前访问的网址manga.bilibili.com/detail/mc31329?from=manga_homepage_discuss。",
+    "image_summary": "该图片展示了一个名为《我家老婆来自一千年前》的漫画页面，页面上提供了漫画的封面、章节列表和推荐漫画等内容。",
+    "user_preference": "用户偏好访问bilibili漫画网站，并且对《我家老婆来自一千年前》这部漫画感兴趣。"
+}
+```
+2025-04-15 08:23:56,193 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:23:56,213 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:56,228 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:56,230 - root - INFO - Total existing memories: 0
+2025-04-15 08:23:56,523 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:23:56,966 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:23:56,967 - root - INFO - {'id': '0', 'text': 'gaochao偏好访问bilibili漫画网站', 'event': 'ADD'}
+2025-04-15 08:23:57,078 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:23:57,080 - root - INFO - {'id': '1', 'text': '对《我家老婆来自一千年前》这部漫画感兴趣', 'event': 'ADD'}
+2025-04-15 08:23:57,081 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:23:57,774 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:23:57,791 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:57,812 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:57,831 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:58,598 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:23:58,613 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:58,627 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:58,699 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:58,712 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:58,778 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:58,792 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:23:58,830 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:23:58] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:27:53,083 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:27:53,084 - root - INFO - response: ```json
+{
+    "image_description": "这是一张网页截图，显示了一个漫画页面。页面顶部有一个导航栏，包含多个标签和搜索框。页面中间部分展示了一部漫画的封面和简介，下方是章节列表，列出了漫画的各个章节标题。右侧推荐了其他漫画。页面底部有浏览器的工具栏。",
+    "image_summary": "该图片展示了一个漫画阅读网站上的漫画详情页，包括漫画封面、简介、章节列表和推荐漫画。",
+    "user_preference": "用户偏好访问哔哩哔哩漫画网站，并且对漫画内容感兴趣，特别是章节列表和推荐漫画的部分。"
+}
+```
+2025-04-15 08:27:53,420 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:27:53,439 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:53,455 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:53,469 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:53,471 - root - INFO - Total existing memories: 2
+2025-04-15 08:27:53,928 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:27:54,805 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:27:54,806 - root - INFO - {'id': '0', 'text': 'gaochao偏好访问哔哩哔哩漫画网站', 'event': 'UPDATE', 'old_memory': 'gaochao偏好访问bilibili漫画网站'}
+2025-04-15 08:27:54,807 - mem0.memory.main - INFO - Updating memory with data='gaochao偏好访问哔哩哔哩漫画网站'
+2025-04-15 08:27:54,809 - mem0.memory.main - INFO - Updating memory with ID memory_id='1cf71c00-fbad-4edf-a52a-92070c1dc5ac' with data='gaochao偏好访问哔哩哔哩漫画网站'
+2025-04-15 08:27:54,809 - root - INFO - {'id': '1', 'text': '对漫画内容感兴趣，特别是章节列表和推荐漫画的部分', 'event': 'UPDATE', 'old_memory': '对《我家老婆来自一千年前》这部漫画感兴趣'}
+2025-04-15 08:27:54,810 - mem0.memory.main - INFO - Updating memory with data='对漫画内容感兴趣，特别是章节列表和推荐漫画的部分'
+2025-04-15 08:27:54,825 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:54,828 - mem0.memory.main - INFO - Updating memory with ID memory_id='3c17bb55-567b-4d74-88fd-0e0139c7dd04' with data='对漫画内容感兴趣，特别是章节列表和推荐漫画的部分'
+2025-04-15 08:27:54,829 - root - INFO - {'id': '2', 'text': '对漫画内容感兴趣', 'event': 'ADD'}
+2025-04-15 08:27:54,830 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:27:54,859 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:27:54,874 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:54,898 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:54,919 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:54,939 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:54,959 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,709 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,726 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,740 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,805 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,818 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,885 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,899 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,966 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:56,979 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:27:57,032 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:27:57] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:28:13,358 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:28:13,359 - root - INFO - response: ```json
+{
+    "image_description": "这是一张网页截图，显示了一个漫画阅读页面。页面顶部有一个浏览器地址栏，显示的是manga.bilibili.com的网址，页面标题为第3话。页面中间部分显示了一个模糊的漫画图像，上方有“载入中”字样和进度条，当前进度为0%。页面底部有一些工具按钮，包括“显示工具栏”和“点我发送弹幕”。页面左侧有一个导航栏，显示了当前漫画的页码（第9页）和总页数（198页）。页面右下角显示了当前时间（2025年4月15日 8:28），以及一些桌面图标。",
+    "image_summary": "正在加载的漫画页面，显示第3话的内容，当前进度为0%，页面顶部有浏览器地址栏和书签栏。",
+    "user_preference": "用户偏好访问manga.bilibili.com网站，查看漫画内容。"
+}
+```
+2025-04-15 08:28:13,625 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:28:13,646 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:28:13,648 - root - INFO - Total existing memories: 3
+2025-04-15 08:28:13,983 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:28:14,615 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:28:14,633 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:28:14,655 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:28:14,675 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:28:15,025 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:28:15,026 - root - INFO - {'id': '0', 'text': 'gaochao偏好访问哔哩哔哩漫画网站', 'event': 'NONE'}
+2025-04-15 08:28:15,027 - root - INFO - NOOP for Memory.
+2025-04-15 08:28:15,027 - root - INFO - {'id': '1', 'text': '对漫画内容感兴趣，特别是章节列表和推荐漫画的部分', 'event': 'NONE'}
+2025-04-15 08:28:15,027 - root - INFO - NOOP for Memory.
+2025-04-15 08:28:15,027 - root - INFO - {'id': '2', 'text': '对漫画内容感兴趣', 'event': 'NONE'}
+2025-04-15 08:28:15,027 - root - INFO - NOOP for Memory.
+2025-04-15 08:28:15,028 - root - INFO - {'id': '3', 'text': 'gaochao偏好访问manga.bilibili.com网站，查看漫画内容。', 'event': 'ADD'}
+2025-04-15 08:28:15,028 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:28:15,652 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:28:15,731 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:28:15,745 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:28:15,810 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:28:15,825 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:28:15,869 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:28:15] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:29:13,102 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:29:13,103 - root - INFO - response: ```json
+{
+    "image_description": "这是一张百度搜索结果页面的截图。页面顶部有一个搜索框，输入的关键词是“作曲家去世四年后大脑还能编曲”。搜索结果中显示了一些相关的新闻标题和文章链接，包括关于美国作曲家阿尔文·卢西尔在去世四年后大脑还能创作音乐的报道。页面右侧列出了热门搜索话题，左侧有相关搜索建议。页面底部显示了浏览器的标签栏和任务栏。",
+    "image_summary": "百度搜索结果页面，显示关于作曲家去世四年后大脑还能创作音乐的相关新闻和文章。",
+    "user_preference": "百度搜索结果页面，关于作曲家去世四年后大脑还能创作音乐的内容。"
+}
+```
+2025-04-15 08:29:13,360 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:29:13,378 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:13,379 - root - INFO - Total existing memories: 4
+2025-04-15 08:29:13,963 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:29:14,874 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:29:14,892 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:14,916 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:14,936 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:14,959 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:14,980 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:15,118 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:29:15,120 - root - INFO - {'id': '0', 'text': '对漫画内容感兴趣', 'event': 'NONE'}
+2025-04-15 08:29:15,121 - root - INFO - NOOP for Memory.
+2025-04-15 08:29:15,121 - root - INFO - {'id': '1', 'text': '对漫画内容感兴趣，特别是章节列表和推荐漫画的部分', 'event': 'NONE'}
+2025-04-15 08:29:15,121 - root - INFO - NOOP for Memory.
+2025-04-15 08:29:15,121 - root - INFO - {'id': '2', 'text': 'gaochao偏好访问manga.bilibili.com网站，查看漫画内容。', 'event': 'NONE'}
+2025-04-15 08:29:15,121 - root - INFO - NOOP for Memory.
+2025-04-15 08:29:15,122 - root - INFO - {'id': '3', 'text': 'gaochao偏好访问哔哩哔哩漫画网站', 'event': 'NONE'}
+2025-04-15 08:29:15,122 - root - INFO - NOOP for Memory.
+2025-04-15 08:29:15,122 - root - INFO - {'id': '4', 'text': '百度搜索结果页面，关于作曲家去世四年后大脑还能创作音乐的内容', 'event': 'ADD'}
+2025-04-15 08:29:15,122 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:29:16,492 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,574 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,588 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,655 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,668 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,733 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,747 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,813 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,826 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:29:16,968 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:29:16] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:30:13,283 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:30:13,284 - root - INFO - response: ```json
+{
+    "image_description": "这是一张百度搜索页面的截图，搜索关键词是“作曲家去世四年后大脑还能编曲”。页面右侧显示了一个名为Qwen2.5-14B-Instruct-1M的AI助手对话框，助手根据之前的信息记录，总结了用户在过去的主要活动：在哔哩哔哩漫画上浏览首页、查看热门漫画封面、分类标签和推荐内容；查看漫画《我家贤父从1000年前》第3话，并对完结和热门漫画感兴趣；使用百度搜索引擎查找关于“作曲家去世四年后大脑还能创作音乐”的相关信息。",
+    "image_summary": "百度搜索页面，用户正在查询关于作曲家去世四年后大脑还能创作音乐的相关信息，页面右侧显示了一个AI助手总结了用户过去的主要活动。",
+    "user_preference": "百度搜索引擎，关于作曲家去世四年后大脑还能创作音乐的相关信息"
+}
+```
+2025-04-15 08:30:13,563 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:30:13,582 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:13,584 - root - INFO - Total existing memories: 5
+2025-04-15 08:30:14,142 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:30:14,842 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:30:14,859 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:14,883 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:14,904 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:14,926 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:14,947 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,325 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,377 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,395 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,465 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,479 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,538 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,552 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,759 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:30:15,760 - root - INFO - {'id': '0', 'text': '百度搜索结果页面，关于作曲家去世四年后大脑还能创作音乐的内容', 'event': 'NONE'}
+2025-04-15 08:30:15,761 - root - INFO - NOOP for Memory.
+2025-04-15 08:30:15,761 - root - INFO - {'id': '1', 'text': '对漫画内容感兴趣', 'event': 'NONE'}
+2025-04-15 08:30:15,761 - root - INFO - NOOP for Memory.
+2025-04-15 08:30:15,761 - root - INFO - {'id': '2', 'text': 'gaochao偏好访问manga.bilibili.com网站，查看漫画内容。', 'event': 'NONE'}
+2025-04-15 08:30:15,761 - root - INFO - NOOP for Memory.
+2025-04-15 08:30:15,761 - root - INFO - {'id': '3', 'text': '对漫画内容感兴趣，特别是章节列表和推荐漫画的部分', 'event': 'NONE'}
+2025-04-15 08:30:15,761 - root - INFO - NOOP for Memory.
+2025-04-15 08:30:15,762 - root - INFO - {'id': '4', 'text': 'gaochao偏好访问哔哩哔哩漫画网站', 'event': 'NONE'}
+2025-04-15 08:30:15,762 - root - INFO - NOOP for Memory.
+2025-04-15 08:30:15,762 - root - INFO - {'id': '5', 'text': 'Searching for information about composers who could create music four years after their death on Baidu search engine', 'event': 'ADD'}
+2025-04-15 08:30:15,762 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:30:15,765 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:30:15] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:31:13,361 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:31:13,363 - root - INFO - response: ```json
+{
+    "image_description": "这是一张百度网页截图，显示了一个对话框界面，其中包含一个名为Qwen2.5-14B-Instruct-1M | vllm的AI助手与用户cnrice的对话。用户cnrice询问能否推荐一些漫画，AI助手回复建议先注册并提供喜好信息以便提供更个性化的推荐。页面左侧有一个侧边栏，显示了多个话题标签，如美国作曲家、高朝、高曹等。页面顶部有一个搜索框，输入了关键词“作曲家去世四年后大脑还能编曲”。浏览器地址栏显示当前访问的是百度搜索引擎，网址为baidu.com/s。",
+    "image_summary": "这张图片展示了百度搜索引擎的界面，用户正在使用AI助手查询关于作曲家的信息，并讨论漫画推荐。",
+    "user_preference": "用户偏好搜索与作曲家相关的信息，并且对漫画推荐感兴趣。"
+}
+```
+2025-04-15 08:31:13,621 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:31:13,640 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:13,656 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:13,658 - root - INFO - Total existing memories: 6
+2025-04-15 08:31:14,094 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:31:14,736 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:31:14,752 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:14,776 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:14,798 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:14,820 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:15,918 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:31:15,919 - root - INFO - {'id': '0', 'text': '百度搜索结果页面，关于作曲家去世四年后大脑还能创作音乐的内容', 'event': 'NONE'}
+2025-04-15 08:31:15,919 - root - INFO - NOOP for Memory.
+2025-04-15 08:31:15,920 - root - INFO - {'id': '1', 'text': 'Searching for information about composers who could create music four years after their death on Baidu search engine', 'event': 'NONE'}
+2025-04-15 08:31:15,920 - root - INFO - NOOP for Memory.
+2025-04-15 08:31:15,920 - root - INFO - {'id': '2', 'text': '对漫画内容感兴趣，特别是章节列表和推荐漫画的部分', 'event': 'UPDATE', 'old_memory': '对漫画内容感兴趣'}
+2025-04-15 08:31:15,921 - mem0.memory.main - INFO - Updating memory with data='对漫画内容感兴趣，特别是章节列表和推荐漫画的部分'
+2025-04-15 08:31:15,938 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:15,941 - mem0.memory.main - INFO - Updating memory with ID memory_id='3c17bb55-567b-4d74-88fd-0e0139c7dd04' with data='对漫画内容感兴趣，特别是章节列表和推荐漫画的部分'
+2025-04-15 08:31:15,942 - root - INFO - {'id': '3', 'text': '对漫画推荐感兴趣', 'event': 'ADD'}
+2025-04-15 08:31:15,943 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 08:31:15,945 - root - INFO - {'id': '4', 'text': 'gaochao偏好访问manga.bilibili.com网站，查看漫画内容。', 'event': 'NONE'}
+2025-04-15 08:31:15,945 - root - INFO - NOOP for Memory.
+2025-04-15 08:31:15,946 - root - INFO - {'id': '5', 'text': 'gaochao偏好访问哔哩哔哩漫画网站', 'event': 'NONE'}
+2025-04-15 08:31:15,946 - root - INFO - NOOP for Memory.
+2025-04-15 08:31:16,468 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 08:31:16,546 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:16,560 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:16,629 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:16,642 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 08:31:16,696 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 08:31:16] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 08:35:42,935 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:35:42,935 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:35:42,936 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 08:35:45,315 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 08:35:49,855 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 08:35:59,660 - root - INFO - memory graph initialized
+2025-04-15 08:35:59,666 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 08:35:59,667 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 10:52:35,673 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/server/web_comm.py', reloading
+2025-04-15 10:52:35,674 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/server/web_comm.py', reloading
+2025-04-15 10:52:35,674 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/server/web_comm.py', reloading
+2025-04-15 10:52:37,397 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 10:52:42,048 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 10:52:51,716 - root - INFO - memory graph initialized
+2025-04-15 10:52:51,721 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 10:52:51,722 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 10:57:51,482 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/server/web_comm.py', reloading
+2025-04-15 10:57:51,483 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/server/web_comm.py', reloading
+2025-04-15 10:57:51,483 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/server/web_comm.py', reloading
+2025-04-15 10:57:51,484 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/server/web_comm.py', reloading
+2025-04-15 10:57:53,276 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 10:57:57,881 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 10:58:07,732 - root - INFO - memory graph initialized
+2025-04-15 10:58:07,737 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 10:58:07,738 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 11:17:23,714 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 11:17:23,714 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 11:17:23,715 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 11:17:25,464 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 11:17:30,106 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 11:17:39,843 - root - INFO - memory graph initialized
+2025-04-15 11:17:39,848 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 11:17:39,849 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 11:19:43,085 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 11:19:43,086 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 11:19:43,086 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/mcp_omnimate.py', reloading
+2025-04-15 11:19:45,488 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 11:19:50,004 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 11:19:59,598 - root - INFO - memory graph initialized
+2025-04-15 11:19:59,603 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 11:19:59,603 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 11:25:15,192 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/server/web_comm.py', reloading
+2025-04-15 11:31:56,643 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 11:32:06,468 - root - INFO - memory graph initialized
+2025-04-15 11:32:06,474 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.211.222:5000
+2025-04-15 11:32:06,474 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 11:32:06,478 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 11:32:11,016 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 11:32:20,825 - root - INFO - memory graph initialized
+2025-04-15 11:32:20,831 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 11:32:20,831 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 11:37:25,762 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:37:25,766 - root - INFO - response: ```json
+{
+    "image_description": "图片显示了一个网页截图，网址为 'qwen.readthedocs.io/en/latest/deployment/vllm.html'，页面标题为 'vLLM'。页面左侧有一个导航栏，包含多个部分：GETTING STARTED（Quickstart、Key Concepts）、INFERENCE（Hugging Face transformers）、RUN LOCALLY（Ollama、MLX-LM、Llama.cpp）、WEB UI（Text Generation Web UI）、QUANTIZATION（AWQ、GPTQ、Llama.cpp）和 DEPLOYMENT（vLLM）。页面主要内容分为几个部分：\n\n1. **vLLM**：推荐使用 vLLM 部署 Qwen，因为它简单易用且速度快，具有最先进的服务吞吐量、高效管理注意力键值内存（PagedAttention）、连续批量输入请求、优化的 CUDA 内核等功能。建议参考相关论文和文档以获取更多信息。\n2. **Installation**：默认情况下，可以通过 pip 在干净的环境中安装 vLLM，命令为 `pip install vllm`。需要注意的是，预构建的 vLLM 依赖于特定版本的 torch 和 CUDA。建议查看官方文档中的安装说明，并安装 ray 用于分布式服务，命令为 `pip install ray`。\n3. **Offline Batched Inference**：支持 Qwen2.5 代码的模型也受 vLLM 支持。最简单的 vLLM 使用方式是离线批量推理，示例代码如下：\n   ```python\n   from transformers import AutoTokenizer\n   from vllm import LLMSamplingParams\n   \n   # Initialize the tokenizer\n   tokenizer = AutoTokenizer.from_pretrained(\"Qwen/Qwen2.5-7B-Instruct\")\n   ```\n\n右侧有一个侧边栏，列出了本页的主要内容：Installation、Offline Batched Inference、OpenAI-Compatible API Service、Tool Use、Structured/JSON Output、Multi-GPU Distributed Serving、Extended Context Support、Serving Quantized Models 和 Troubleshooting。\n\n浏览器标签栏显示了多个打开的标签页，包括 Greasy Fork、电子书、视频剪辑、discuz、Cloudreve 等。底部任务栏显示了多个应用程序图标，如 Chrome 浏览器、文件资源管理器等。右下角显示当前时间为 11:37，日期为 2025/4/15。",
+    "image_summary": "该图片展示了一个关于 Qwen 的部署指南页面，重点介绍了如何使用 vLLM 进行模型部署，包括安装步骤和离线批量推理的示例代码。页面提供了详细的安装说明和相关文档链接，适用于希望部署 Qwen 模型的开发者。",
+    "user_preference": {
+        "website": "qwen.readthedocs.io",
+        "content": "Qwen 的部署指南，特别是关于 vLLM 的安装和使用方法，包括离线批量推理的代码示例"
+    }
+}
+```
+2025-04-15 11:37:25,767 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:37:25] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 11:38:11,517 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:38:11,518 - root - INFO - response: ```json
+{
+    "image_description": "图片展示了一个编程开发环境，具体是一个代码编辑器界面，正在编辑一个名为 `upload_stream.py` 的 Python 文件。编辑器左侧是文件资源管理器，显示了项目结构，包括 `HACKTHON` 文件夹下的多个文件：`video_stream`、`config.json`、`test_web.py` 和 `test.py`。当前打开的文件是 `upload_stream.py`，代码中定义了一个类 `NewImageHandler`，继承自 `FileSystemEventHandler`，用于处理文件系统事件。代码的主要功能是监控指定目录（`LOCAL_DIR`）的新文件创建事件，并在检测到新文件时执行一系列操作，包括将图像转换为 Base64 格式并尝试发送到服务器。如果发送失败，则捕获异常并打印错误信息。编辑器底部的终端窗口显示了运行脚本的命令行输出，表明正在监控 `video_stream` 目录，并检测到了一个新文件 `2025-04-15-11-37.jpg`，但发送图像到服务器时遇到了 `500 Server Error: INTERNAL SERVER ERROR` 错误。此外，浏览器标签显示当前搜索关键词为 'hackthon'，任务栏显示时间为 18:38，日期为 2025/4/15。",
+    "image_summary": "图片展示了一个Python开发环境，开发者正在编写和调试一个用于监控文件系统事件并上传图像到服务器的脚本。脚本使用了 `watchdog` 库来监听新文件的创建，并在检测到新文件后将其转换为Base64格式并尝试发送到服务器，但遇到了服务器内部错误。",
+    "user_preference": {
+        "website": "无明确网站信息",
+        "content": "Python 编程、文件系统事件处理、图像上传、服务器通信、错误处理"
+    }
+}
+```
+2025-04-15 11:38:11,519 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:38:11] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 11:39:12,774 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:39:12,775 - root - INFO - response: ```json
+{
+    "image_description": "图片显示了一个网页截图，网址为 'qwen.readthedocs.io/en/latest/deployment/vllm.html'，内容主要关于 Qwen 的 vLLM（虚拟大型语言模型）部署指南。页面左侧有一个导航栏，包含多个部分：GETTING STARTED（快速入门）、INFERENC（推理）、RUN LOCALLY（本地运行）、WEB UI（Web 用户界面）、QUANTIZATION（量化）、DEPLOYMENT（部署）。当前页面标题为 'vLLM'，主要内容包括以下几点：\n\n1. **推荐使用 vLLM**：页面建议使用 vLLM 进行 Qwen 的部署，因为它简单易用，具有高性能的吞吐量、高效的注意力键值内存管理（如 PagedAttention）、连续批量输入请求处理、优化的 CUDA 内核等特性。\n2. **安装说明**：默认情况下，可以通过 `pip` 在干净的环境中安装 vLLM，命令为 `pip install vllm`。此外，还提到预构建的 vLLM 依赖于特定版本的 `torch` 和 CUDA，建议查看官方文档以获取帮助，并建议安装 Ray 用于分布式服务，命令为 `pip install ray`。\n3. **离线批量推理**：支持 Qwen2.5 代码的模型可以使用 vLLM 进行离线批量推理。示例代码展示了如何初始化分词器和加载模型，使用了 `transformers` 库和 `vllm` 库。\n4. **右侧边栏**：列出了本页的主要内容链接，包括 Installation、Offline Batched Inference、OpenAI-Compatible API Service 等。\n\n浏览器标签栏显示了多个打开的标签页，任务栏显示了当前时间为 11:39，日期为 2025/4/15。",
+    "image_summary": "该图片展示了一个关于 Qwen 的 vLLM 部署指南的网页，重点介绍了 vLLM 的安装方法、离线批量推理功能以及相关依赖项，同时提供了代码示例和进一步学习的资源链接。",
+    "user_preference": {
+        "website": "qwen.readthedocs.io",
+        "content": "Qwen 的 vLLM 部署指南，包括安装、离线批量推理和相关代码示例"
+    }
+}
+```
+2025-04-15 11:39:12,776 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:39:12] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 11:39:41,934 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 11:39:41,934 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 11:39:41,935 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/utils.py', reloading
+2025-04-15 11:39:43,309 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 11:39:47,798 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 11:39:57,443 - root - INFO - memory graph initialized
+2025-04-15 11:39:57,448 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 11:39:57,448 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 11:40:11,131 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:40:11,133 - root - INFO - response: ```json
+{
+    "image_description": "这是一张显示代码编辑器界面的截图，具体为一个Python项目的开发环境。编辑器中打开的文件名为`upload_stream.py`，代码内容涉及文件系统事件处理，特别是监控新创建的文件并将其上传到远程服务器的功能。代码使用了`FileSystemEventHandler`类，并定义了一个`on_created`方法来处理新文件创建事件。代码中还包含了一些错误处理逻辑，例如在尝试将图像以Base64格式发送到服务器时捕获异常。终端部分显示了一些运行日志，包括检测到的新文件路径以及发送图像到服务器时出现的500内部服务器错误。项目目录结构显示在左侧，包括`HACKTHON`文件夹下的多个文件：`video_stream`、`config.json`、`test_web.py`、`test.py`和`upload_stream.py`。编辑器底部的状态栏显示当前行号、列号、编码格式（UTF-8）以及使用的Python版本（3.10.7 64-bit）。任务栏显示时间为2025年4月15日18:40。",
+    "image_summary": "这张图片展示了一个Python项目的代码编辑器界面，主要功能是监控本地目录中新创建的文件，并尝试将这些文件转换为Base64格式后发送到远程服务器。代码中包含了错误处理机制，终端日志显示了文件检测和服务器通信的相关信息。",
+    "user_preference": {
+        "website": "无特定网站",
+        "content": "Python编程，特别是涉及文件系统事件处理、Base64编码、服务器通信和错误处理的代码开发。用户可能对Hackathon或类似的编程竞赛感兴趣，因为项目名称为`HACKTHON`。"
+    }
+}
+```
+2025-04-15 11:40:11,411 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:40:11] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 11:41:14,612 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:41:14,613 - root - INFO - response: ```json
+{
+    "image_description": "这是一张显示代码编辑器界面的截图，具体为一个Python项目的开发环境。编辑器中打开的文件名为`upload_stream.py`，属于一个名为`HACKTHON`的项目。代码的主要功能是处理新创建的文件事件，并将其上传到远程服务器。以下是详细描述：\n\n1. **编辑器界面**：\n   - 左侧是文件资源管理器，显示了项目结构，包括`video_stream`目录下的多个文件：`config.json`、`test_web.py`、`test.py`和`upload_stream.py`。\n   - 当前打开的文件是`upload_stream.py`，其中包含Python代码。\n\n2. **代码内容**：\n   - 定义了一个类`NewImageHandler`，继承自`FileSystemEventHandler`，用于处理文件系统事件。\n   - 方法`on_created(self, event)`在检测到新文件时执行以下操作：\n     - 使用`subprocess.run`将文件通过`scp`命令上传到远程目标。\n     - 将文件转换为Base64编码并发送到服务器。\n     - 如果发送失败，捕获异常并打印错误信息。\n   - 主函数部分（`if __name__ == \"__main__\":`）初始化了`NewImageHandler`对象，并使用`Observer`监控指定目录`LOCAL_DIR`的新文件。\n\n3. **终端输出**：\n   - 显示了一些运行日志，包括检测到的新文件路径、Base64转换完成的消息以及发送图像到服务器时出现的错误。\n   - 错误信息表明无法将图像发送到服务器，原因是内部服务器错误（HTTP 500），URL为`http://localhost:5000/receive_json`。\n\n4. **其他细节**：\n   - 编辑器底部显示当前行号为88，列号为67，使用UTF-8编码。\n   - 系统任务栏显示时间为2025年4月15日，18:41。\n   - 打开的标签页还包括`test_web.py`和`config.json`。\n   - 右下角显示使用的IDE为CodeGeeX Pro，Python版本为3.10.7 64-bit。\n\n5. **工具栏和状态栏**：\n   - 工具栏显示了常见的编辑器功能按钮，如保存、撤销、重做等。\n   - 状态栏显示了当前文件的编码格式、行号和列号等信息。\n\n",
+    "image_summary": "这张图片展示了一个Python项目的代码编辑器界面，主要功能是处理新创建的文件事件并将文件上传到远程服务器。代码中包含了文件监控、Base64编码和HTTP请求的部分，但存在向服务器发送数据时的错误。",
+    "user_preference": "用户喜欢查看与编程相关的技术内容，特别是涉及Python编程、文件系统事件处理和网络通信的代码实现。"
+}
+```
+2025-04-15 11:41:14,651 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-04-15 11:41:14,651 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-04-15 11:41:14,653 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:41:14] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 11:45:51,431 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 11:46:01,073 - root - INFO - memory graph initialized
+2025-04-15 11:46:01,079 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.211.222:5000
+2025-04-15 11:46:01,080 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 11:46:01,083 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 11:46:05,731 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
+2025-04-15 11:46:15,295 - root - INFO - memory graph initialized
+2025-04-15 11:46:15,301 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 11:46:15,302 - werkzeug - INFO -  * Debugger PIN: 125-249-202
+2025-04-15 11:46:55,620 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:46:55,623 - root - INFO - response: ```json
+{
+    "image_description": "图片展示了一个编程开发环境，具体是一个代码编辑器界面，正在编辑一个名为 `upload_stream.py` 的 Python 文件。编辑器左侧是文件资源管理器，显示了项目结构，包括 `HACKTHON` 文件夹下的多个文件：`video_stream`、`config.json`、`test_web.py` 和 `test.py`。当前打开的文件是 `upload_stream.py`，其中包含以下代码内容：\n\n```python\n# upload_stream.py > ...\nclass NewImageHandler(FileSystemEventHandler):\n    def on_created(self, event):\n        # subprocess.run([\"scp\", f\"-P{REMOTE_PORT}\", event.src_path, remote_target], check=True)\n        # print(f\"Uploaded {event.src_path} to {remote_target}\")\n        time.sleep(3)\n        try:\n            image_base64 = image_to_base64_data_uri(event.src_path)\n            print(\"finished image to base64, sending to server\")\n            send_server_request(userid, image_base64)\n        except Exception as e:\n            print(f\"error: can not send image to server: {e}\")\n\nif __name__ == \"__main__\":\n    event_handler = NewImageHandler()\n    observer = Observer()\n    observer.schedule(event_handler, LOCAL_DIR, recursive=False)  # 只监控当前目录\n    observer.start()\n    print(f\"Monitoring directory: {LOCAL_DIR} for new files...\")\n    try:\n        while True:\n```\n\n在编辑器下方的终端窗口中，显示了一些运行日志，包括检测到的新文件路径、将图像转换为 Base64 格式并尝试发送到服务器的过程，以及由于连接中断导致的错误信息：\n\n```\nDetected new file: C:\\Users\\13287\\Desktop\\hackthon\\video_stream\\2025-04-15-11-42.jpg\nfinished image to base64, sending to server\nerror: can not send image to server: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nPS C:\\Users\\13287\\Desktop\\hackthon> python -u \"c:\\Users\\13287\\Desktop\\hackthon\\upload_stream.py\"\nMonitoring directory: C:\\Users\\13287\\Desktop\\hackthon\\video_stream for new files...\n```\n\n此外，编辑器顶部显示了浏览器标签页，搜索栏中输入了“hackthon”，表明可能与黑客马拉松相关。底部任务栏显示了多个应用程序图标，包括浏览器、文件管理器等。",
+    "image_summary": "图片展示了一个Python开发环境，开发者正在编写和调试一个用于监控文件系统事件（如新文件创建）并将图像上传到服务器的脚本。脚本使用了 `FileSystemEventHandler` 类来处理文件创建事件，并尝试将图像转换为Base64格式后发送到服务器，但因网络连接问题导致上传失败。",
+    "user_preference": {
+        "website": "无明确网站信息",
+        "content": "Python 编程、文件系统事件处理、图像上传、异常处理、黑客马拉松相关开发"
+    }
+}
+```
+2025-04-15 11:46:55,901 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:46:55] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 11:47:11,103 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:47:11,104 - root - INFO - response: ```json
+{
+    "image_description": "这是一张显示GitHub创建新仓库页面的截图。页面标题为“Create a new repository”，说明该页面用于创建一个新的Git仓库。页面的主要内容包括：\n1. **Owner**：显示当前登录用户的用户名（chrisx599），并有一个下拉菜单。\n2. **Repository name**：一个必填字段，提示用户输入仓库名称，并建议使用简短且易记的名称，例如“friendly-umbrella”。\n3. **Description**：一个可选字段，用于添加仓库的描述。\n4. **Visibility options**：提供两种可见性选择：\n   - **Public**：任何人都可以查看此仓库，但只有指定的人可以提交更改。\n   - **Private**：只有指定的人可以查看和提交更改。\n5. **Initialize this repository with**：提供两个选项：\n   - 添加README文件，用于编写项目的详细描述。\n   - 添加.gitignore模板，用于忽略某些文件类型。\n6. 页面顶部显示了浏览器标签栏，包含多个打开的标签页，如Greasy Fork、电子书、视频剪辑等。\n7. 页面底部显示了任务栏，包含多个应用程序图标，如浏览器、文件管理器等。\n8. 右上角显示当前时间为2025年4月15日，11:47。",
+    "image_summary": "图片展示了一个GitHub页面，用户正在创建一个新的Git仓库。页面提供了填写仓库名称、描述、可见性和初始化选项的功能。",
+    "user_preference": {
+        "website": "GitHub",
+        "content": "创建新仓库（New Repository）"
+    }
+}
+```
+2025-04-15 11:47:11,138 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:47:11] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 11:49:09,235 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:49:09,236 - root - INFO - response: ```json
+{
+    "image_description": "这是一张显示GitHub创建新仓库页面的截图。页面标题为“Create a new repository”，说明该页面用于创建一个新的Git仓库。页面主要内容包括：\n1. **Owner**：显示当前用户为“chrisx599”。\n2. **Repository name**：一个必填字段，提示用户输入仓库名称，并建议使用简短且易记的名称，例如“friendly-umbrella”。\n3. **Description**：一个可选字段，用于填写仓库的描述。\n4. **Visibility options**：提供两种可见性选择：\n   - **Public**：任何人都可以查看此仓库，但只有选定的人可以提交更改。\n   - **Private**：只有选定的人可以查看和提交更改。\n5. **Initialize this repository with**：提供两个初始化选项：\n   - 添加README文件，允许用户在此文件中编写项目详细描述。\n   - 添加.gitignore模板，可以选择忽略某些类型的文件。\n6. 浏览器标签栏显示多个打开的标签页，包括Greasy Fork、电子书、视频剪辑、Cloudreve等。\n7. 页面顶部有GitHub的搜索框和导航按钮，底部显示系统任务栏，时间显示为2025年4月15日11:49。",
+    "image_summary": "图片展示了一个GitHub页面，用户正在创建一个新的Git仓库，页面提供了仓库名称、描述、可见性和初始化选项等设置。",
+    "user_preference": "用户偏好在GitHub上创建和管理新的Git仓库，关注仓库的命名、可见性和初始化设置。"
+}
+```
+2025-04-15 11:49:10,829 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:49:10,856 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:49:10,858 - root - INFO - Total existing memories: 0
+2025-04-15 11:49:11,421 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:49:11,432 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:49:11,433 - root - INFO - {'id': '0', 'text': 'LiangZhengyang偏好在GitHub上创建和管理新的Git仓库，关注仓库的命名、可见性和初始化设置。', 'event': 'ADD'}
+2025-04-15 11:49:11,543 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 11:49:12,544 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:49:12,563 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:49:12,713 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:49:12,799 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:49:12,818 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:49:12,836 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:49:12,854 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:49:13,366 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:49:13,374 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:49:13] "[35m[1mPOST /receive_json HTTP/1.1[0m" 500 -
+2025-04-15 11:50:09,739 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:50:09,740 - root - INFO - response: ```json
+{
+    "image_description": "图片显示了一个网页界面，具体是GitHub的创建新仓库页面（github.com/new）。页面标题为“Create a new repository”，说明这是一个用于创建新代码仓库的表单。表单中有以下关键部分：\n1. **Owner**：显示当前用户为“chrisx599”。\n2. **Repository name**：输入框中填写了“OmniMate”，并提示“Omni is available”，表示该名称可用。\n3. **Description**：一个可选的描述输入框，目前为空。\n4. **Visibility options**：有两个选项，分别是“Public”（任何人都可以查看此仓库，但可以选择谁可以提交）和“Private”（可以选择谁可以查看和提交此仓库），当前选择了“Public”。\n5. **Initialize this repository with**：提供了一个复选框，可以选择是否添加README文件，并提供了关于README的更多信息链接。\n6. **Add .gitignore template**：下拉菜单中选择“None”，表示不使用任何.gitignore模板。\n\n浏览器标签栏显示了多个打开的标签页，包括Greasy Fork、电子书、视频剪辑、Cloudreve等。地址栏显示当前访问的URL为“github.com/new”。页面底部显示时间为“11:49”，日期为“2025/4/15”。任务栏显示了多个应用程序图标，如Windows搜索、文件管理器、浏览器等。",
+    "image_summary": "图片展示了一个GitHub页面，用户正在创建一个新的代码仓库，填写了仓库名称“OmniMate”，选择了公开可见性，并未初始化README文件或使用.gitignore模板。",
+    "user_preference": "用户偏好在GitHub上创建新的代码仓库，并倾向于使用公开可见性的设置，同时没有选择初始化README文件或使用.gitignore模板。"
+}
+```
+2025-04-15 11:50:10,155 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:50:10,174 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:10,191 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:10,205 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:10,220 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:10,221 - root - INFO - Total existing memories: 1
+2025-04-15 11:50:10,699 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,125 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,126 - root - INFO - {'id': '0', 'text': 'LiangZhengyang偏好在GitHub上创建新的代码仓库，倾向于使用公开可见性的设置，没有选择初始化README文件，没有选择使用.gitignore模板。', 'event': 'UPDATE', 'old_memory': 'LiangZhengyang偏好在GitHub上创建和管理新的Git仓库，关注仓库的命名、可见性和初始化设置。'}
+2025-04-15 11:50:11,126 - mem0.memory.main - INFO - Updating memory with data='LiangZhengyang偏好在GitHub上创建新的代码仓库，倾向于使用公开可见性的设置，没有选择初始化README文件，没有选择使用.gitignore模板。'
+2025-04-15 11:50:11,141 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,144 - mem0.memory.main - INFO - Updating memory with ID memory_id='71f65b58-0830-4372-b25a-b3d3721eb5d5' with data='LiangZhengyang偏好在GitHub上创建新的代码仓库，倾向于使用公开可见性的设置，没有选择初始化README文件，没有选择使用.gitignore模板。'
+2025-04-15 11:50:11,780 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,795 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,814 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,831 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,849 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,866 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:11,885 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,535 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,613 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,627 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,787 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,800 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,863 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,876 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,939 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:12,952 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:13,015 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:13,028 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:50:13,078 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:50:13] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 11:51:07,897 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:51:07,898 - root - INFO - response: ```json
+{
+    "image_description": "图片展示了一个电脑桌面的截图，背景是一幅美丽的自然风光照片，画面中有几座高耸的岩石岛屿，覆盖着绿色植被，周围是清澈的蓝色海水，海浪拍打着岩石和沙滩。在屏幕底部，可以看到Windows任务栏，上面有多个应用程序图标，包括浏览器、文件管理器等。任务栏上方显示了三个打开的Visual Studio Code窗口，分别对应不同的Python文件：'utils.py - infer [SSH: hackthon]', 'vllm_qwq_cot_chain.py', 和 'upload_stream.py'。右下角显示当前时间为11:51，日期为2025年4月15日。",
+    "image_summary": "这是一张电脑桌面截图，展示了自然风光作为桌面背景，并且显示了多个正在运行的Visual Studio Code窗口，涉及Python编程工作，同时任务栏上列出了常用的应用程序。",
+    "user_preference": "用户偏好使用Visual Studio Code进行Python编程，并且喜欢以自然风光作为桌面背景。"
+}
+```
+2025-04-15 11:51:08,215 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:51:08,234 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:08,250 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:08,252 - root - INFO - Total existing memories: 1
+2025-04-15 11:51:08,618 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,461 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,476 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,486 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,487 - root - INFO - {'id': '0', 'text': 'LiangZhengyang偏好在GitHub上创建新的代码仓库，倾向于使用公开可见性的设置，没有选择初始化README文件，没有选择使用.gitignore模板。', 'event': 'NONE'}
+2025-04-15 11:51:09,488 - root - INFO - NOOP for Memory.
+2025-04-15 11:51:09,488 - root - INFO - {'id': '1', 'text': 'LiangZhengyang偏好使用Visual Studio Code进行Python编程', 'event': 'ADD'}
+2025-04-15 11:51:09,488 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 11:51:09,490 - root - INFO - {'id': '2', 'text': '喜欢以自然风光作为桌面背景', 'event': 'ADD'}
+2025-04-15 11:51:09,491 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 11:51:09,498 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,518 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,539 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,844 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,890 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,904 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,969 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:09,983 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:10,040 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:10,053 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:51:10,110 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:51:10] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 11:52:10,135 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:52:10,136 - root - INFO - response: ```json
+{
+    "image_description": "这是一张显示GitHub仓库页面的截图，具体地址为 'github.com/chrisx599/OmniMate'。页面顶部显示了导航栏，包括 'Code'、'Issues'、'Pull requests'、'Actions'、'Projects'、'Wiki'、'Security' 和 'Insights' 等选项。当前选中的是 'Code' 选项卡。页面中间部分显示了仓库的基本信息：\n- 仓库名称：OmniMate\n- 创建者：chrisx599\n- 分支：master\n- 标签数量：0\n- 最近提交：Initial commit，1分钟前\n- 提交哈希值：496f83f\n- 文件列表：LICENSE（MIT license）和 README\n- 提交者：chrisx599\n右侧列出了仓库的活动信息：\n- 星标数：0\n- 观察者数：1\n- 叉出数：0\n- 发布的版本：无\n- 发布的包：无\n页面底部有一个提示，建议添加 README 文件，并提供了一个绿色按钮 'Add a README'。浏览器标签栏显示了多个打开的标签页，包括 'Greasy Fork - 安全...'、'电子书'、'视频剪辑'、'discuz'、'Cloudreve - 助您...' 等。任务栏显示了当前时间为 11:51，日期为 2025/4/15。",
+    "image_summary": "该图片展示了一个名为 'OmniMate' 的GitHub仓库页面，由用户 chrisx599 创建，目前处于初始状态，尚未发布任何版本或包，且没有 README 文件。页面提供了基本的仓库管理功能和活动信息。",
+    "user_preference": "用户偏好访问GitHub网站，查看和管理名为 'OmniMate' 的开源项目仓库内容。"
+}
+```
+2025-04-15 11:52:10,468 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:52:10,486 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:10,489 - root - INFO - Total existing memories: 3
+2025-04-15 11:52:10,740 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,440 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,455 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,478 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,497 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,841 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,886 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,899 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,950 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:11,963 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:12,139 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:52:12,140 - root - INFO - {'id': '0', 'text': 'LiangZhengyang偏好在GitHub上创建新的代码仓库，倾向于使用公开可见性的设置，没有选择初始化README文件，没有选择使用.gitignore模板。', 'event': 'NONE'}
+2025-04-15 11:52:12,141 - root - INFO - NOOP for Memory.
+2025-04-15 11:52:12,141 - root - INFO - {'id': '1', 'text': 'LiangZhengyang偏好使用Visual Studio Code进行Python编程', 'event': 'NONE'}
+2025-04-15 11:52:12,141 - root - INFO - NOOP for Memory.
+2025-04-15 11:52:12,141 - root - INFO - {'id': '2', 'text': '喜欢以自然风光作为桌面背景', 'event': 'NONE'}
+2025-04-15 11:52:12,141 - root - INFO - NOOP for Memory.
+2025-04-15 11:52:12,142 - root - INFO - {'id': '3', 'text': "LiangZhengyang偏好访问GitHub网站，查看和管理名为 'OmniMate' 的开源项目仓库内容。", 'event': 'ADD'}
+2025-04-15 11:52:12,142 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 11:52:12,146 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:52:12] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 11:53:08,351 - httpx - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:53:08,352 - root - INFO - response: ```json
+{
+    "image_description": "这是一张显示GitHub仓库页面的截图，具体是Yxxxb用户创建的名为'VoCo-LLaMA'的项目页面。页面顶部显示了仓库的基本信息，包括分支（main）、标签数量（0 Tags）和提交记录（24 Commits）。右侧有关注者（2）、Fork次数（7）和Star次数（150）。页面中间列出了仓库中的文件夹和文件，包括'lava'、'scripts'、'LICENSE'、'README.md'和'pyproject.toml'，并标注了每个文件或文件夹的初始提交时间（10个月前）和最近更新时间（上个月）。右侧有一个关于项目的简介，提到这是CVPR 2025论文《VoCo-LLaMA: Towards Vision Compression with Large Language Models》的官方实现。页面底部展示了README文件的内容标题，强调了该项目的目标：使用大语言模型进行视觉压缩。",
+    "image_summary": "该图片展示了一个GitHub仓库页面，名为'VoCo-LLaMA'，该项目旨在实现视觉压缩与大语言模型结合的技术，并提供了相关的代码和文档。",
+    "user_preference": "用户偏好访问GitHub上的开源项目，特别是涉及视觉压缩与大语言模型结合的研究和技术实现。"
+}
+```
+2025-04-15 11:52:50,082 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:52:50,100 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:52:50,102 - root - INFO - Total existing memories: 4
+2025-04-15 11:53:09,196 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:53:10,794 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:53:10,795 - root - INFO - {'id': '0', 'text': "LiangZhengyang偏好访问GitHub网站，查看和管理名为 'OmniMate' 的开源项目仓库内容。", 'event': 'NONE'}
+2025-04-15 11:53:10,795 - root - INFO - NOOP for Memory.
+2025-04-15 11:53:10,795 - root - INFO - {'id': '1', 'text': 'LiangZhengyang偏好使用Visual Studio Code进行Python编程', 'event': 'NONE'}
+2025-04-15 11:53:10,795 - root - INFO - NOOP for Memory.
+2025-04-15 11:53:10,796 - root - INFO - {'id': '2', 'text': 'LiangZhengyang偏好在GitHub上创建新的代码仓库，倾向于使用公开可见性的设置，没有选择初始化README文件，没有选择使用.gitignore模板。', 'event': 'NONE'}
+2025-04-15 11:53:10,796 - root - INFO - NOOP for Memory.
+2025-04-15 11:53:10,796 - root - INFO - {'id': '3', 'text': '喜欢以自然风光作为桌面背景', 'event': 'NONE'}
+2025-04-15 11:53:10,796 - root - INFO - NOOP for Memory.
+2025-04-15 11:53:10,796 - root - INFO - {'id': '4', 'text': 'LiangZhengyang偏好访问GitHub上的开源项目，特别是涉及视觉压缩与大语言模型结合的研究和技术实现。', 'event': 'ADD'}
+2025-04-15 11:53:10,797 - mem0.vector_stores.qdrant - INFO - Inserting 1 vectors into collection mem0
+2025-04-15 11:53:11,915 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:53:11,932 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:11,955 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:11,975 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:11,995 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,015 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,323 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,368 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,382 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,407 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,421 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,487 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,500 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,558 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,572 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,628 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,641 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,704 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,718 - httpx - INFO - HTTP Request: POST http://localhost:8002/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-15 11:53:12,732 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 11:53:12] "POST /receive_json HTTP/1.1" 200 -
+2025-04-15 11:53:53,665 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/.zip', reloading
+2025-04-15 11:53:53,666 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/.zip', reloading
+2025-04-15 11:53:53,668 - werkzeug - INFO -  * Detected change in '/share/project/liangzy/infer/ziMI0Ng7', reloading
+2025-04-15 11:53:55,973 - werkzeug - INFO -  * Restarting with watchdog (inotify)
+2025-04-15 11:54:00,642 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: /share/project/models_cache/bge-m3
