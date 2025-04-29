@@ -1,70 +1,48 @@
-# OmniMate | OmniMate
+# OmniMate: 实时多模态智能助手
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/OmniMate/OmniMate)
-![Platform](https://img.shields.io/badge/platform-Windows%2010+-lightgrey)
+![GitHub License](https://img.shields.io/github/license/your-username/omnimate?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.0-beta-blue?style=flat-square)
+![Platforms](https://img.shields.io/badge/platforms-Windows%2010%2B-lightgrey?style=flat-square)
 
-[English](#english) | [简体中文](#简体中文)
+## 🚀 产品简介
+**OmniMate** 是首款实时多模态智能助手应用，通过屏幕动态监控与分层记忆存储技术，为用户提供跨场景智能辅助。支持视频会议、文档协作、教程学习等全场景，实现实时问答、操作总结与个性化建议，大幅提升单场景及跨场景任务效率。
 
-<!-- ################ ENGLISH VERSION ################ -->
-<h2 id="english"></h2>
+## 🌐 中英双语切换
+- [English](#english-version)
+- [中文](#中文版本)
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=OmniMate+Architecture" alt="Architecture" width="85%">
-</div>
+## 中文版本
 
-## 🌟 Core Features
+### 一、技术创新
+#### 1.1 多模态实时感知与分层记忆存储
+- **实时捕捉**：通过屏幕截图实时记录视觉、操作轨迹、文本交互等多模态数据。
+- **分层存储**：
+  - **原始细节**：按时间序列存储未处理操作日志。
+  - **去冗余总结**：基于BGE - M3向量模型生成语义向量，实现跨场景记忆去重。
+  - **用户偏好图**：构建操作行为与偏好的图结构模型（如“表格操作偏好”节点），支持长周期个性化记忆提取。
+- **MCP架构**：解耦规划与记忆检索，通过动态调用记忆库突破传统Agent上下文窗口限制。
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🖥️ Real-Time Perception</h3>
-      <ul>
-        <li>5-second screen capture</li>
-        <li>Multimodal behavior tracking</li>
-        <li>Dynamic focus recognition</li>
-      </ul>
-    </td>
-    <td>
-      <h3>🧠 Intelligent Memory</h3>
-      <ul>
-        <li>Three-layer storage</li>
-        <li>Cross-scenario learning</li>
-        <li>Semantic vector search</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>⚡ Inference Engine</h3>
-      <ul>
-        <li>vLLM distributed cluster</li>
-        <li>Prompt forking technology</li>
-        <li><500ms response time</li>
-      </ul>
-    </td>
-    <td>
-      <h3>🔗 Context Awareness</h3>
-      <ul>
-        <li>Meeting-document linkage</li>
-        <li>Personalized learning path</li>
-        <li>Automated tool calling</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+#### 1.2 轻量化部署与高效推理
+- **分布式优化**：基于vLLM模型实现高并发实时推理（每5秒截图解析），效率较传统模型提升3倍。
+- **Prompt分叉技术**：单次推理生成细节、总结、偏好三类响应，并行处理多任务。
 
-## 🏗️ Technical Architecture
+#### 1.3 用户偏好驱动的图存储技术
+- 首次融合屏幕操作与偏好数据，动态更新用户画像。例如，频繁使用表格功能将强化对应偏好节点，为跨场景建议提供依据。
 
-```mermaid
-graph TD
-    A[Screen Capture] --> B[Multimodal Parser]
-    B --> C{Memory Storage}
-    C --> D[Raw Details]
-    C --> E[Vector Memory]
-    C --> F[Graph Memory]
-    D --> G[Instant Retrieval]
-    E --> H[Semantic Search]
-    F --> I[Preference Analysis]
-    G & H & I --> J[Adaptive Planner]
-    J --> K[User Interface]
+### 二、应用创新
+#### 2.1 核心价值
+- **解决行业痛点**：
+  1. 突破传统多模态模型实时性与记忆持久性局限，贴合真实工作学习场景。
+  2. 填补“被动式跨场景辅助”空白，替代手动操作的录屏/笔记工具。
+- **场景适配**：
+  - **个人工作学习**：实时问答、智能总结，如教程学习时生成个性化路径。
+  - **视频会议**：自动提取发言要点并关联历史讨论，避免信息遗漏。
+  - **娱乐互动**：动态推荐游戏策略/影视内容，支持剧情实时交流。
+  - **自动化工具调用**：基于偏好自动调用工具（如创建GitHub仓库），提升专属场景效率。
+
+#### 2.2 差异化优势
+- **全自动化**：无感记录屏幕活动，无需手动触发（对比Loom等工具）。
+- **跨场景关联**：通过图存储技术打通会议设计稿与协作文档等多场景数据，消除信息孤岛。
+
+### 三、技术架构与落地规划
+#### 3.1 技术架构
