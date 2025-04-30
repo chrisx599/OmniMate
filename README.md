@@ -1,6 +1,6 @@
 # OmniMate 🤖✨
 ​**The First Real-Time Multimodal Agent for Seamless Human-Computer Symbiosis**​  
-![Product Showcase]([https://via.placeholder.com/800x400.png/007ACC/FFFFFF?text=OmniMate+in+Action](https://github.com/chrisx599/OmniMate/blob/master/Image1.png))
+![Product Showcase](Image1.png)
 
 ## 🌟 Revolutionizing Digital Interaction
 OmniMate is your intelligent companion that ​**sees**, ​**remembers**, and ​**understands**​ - bridging the gap between human intuition and machine intelligence. Imagine having a digital twin that evolves with your work patterns and anticipates your needs!
