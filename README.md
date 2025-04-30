@@ -9,6 +9,7 @@ OmniMate is your intelligent companion that ​**sees**, ​**remembers**, and �
 + Real-Time Multimodal Perception 👁️
 + Persistent Memory Architecture 🧠
 + Adaptive Preference Learning 🎯
+```
 ## 🚀 Core Features
 
 <div align="center">
