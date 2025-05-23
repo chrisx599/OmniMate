@@ -1,5 +1,8 @@
 # OmniMate 🤖✨  
 ![Product Showcase](OmniMate.png)
+
+<div align="center">
+
 ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square&logo=azurepipelines) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python) [![GitHub stars](https://img.shields.io/github/stars/gaochao350/SeamlessHuman-Comp.svg)](https://github.com/gaochao350/SeamlessHuman-Comp)[![中文版](https://img.shields.io/badge/动态切换-中文文档-important?logo=github)](https://github.com/YOUR_USERNAME/eamlessHuman-Comp?lang=zh)
 
 <div align="center">
