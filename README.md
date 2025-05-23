@@ -65,6 +65,9 @@ OmniMate is your intelligent companion that ​**sees**, ​**remembers**, and �
 
 
 ### Key Technology Highlights
+
+<div align="center">
+
 ```bash
 # 分层记忆检索示例
 curl -X POST https://api.omnimate.ai/memory/query \
