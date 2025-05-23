@@ -11,7 +11,7 @@
     <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);">The Real-Time Multimodal Agent</span>
     <span style="color: #28B463;">for</span> 
     <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);">Seamless Human-Computer Symbiosis</span>
-    <img src="https://img.icons8.com/?size=100&id=gShesypkbo1o&format=png&color=000000" width="40" /> <!-- 新增旋转样式 -->
+    <img src="icons8-technology-100.png" width="40" /> <!-- 新增旋转样式 -->
   </h1>
 </div>
   <hr style="height:2px; border-width:0; background: linear-gradient(90deg, rgba(46,134,193,0) 0%, rgba(46,134,193,0.6) 50%, rgba(46,134,193,0) 100%);">
