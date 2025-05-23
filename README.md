@@ -10,7 +10,7 @@
     <img src="https://img.icons8.com/color/96/000000/brain-3.png" width="40"/>
     <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);"> AI Agent</span>
     <span style="color: #28B463;">for</span> 
-    <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);">Seamless Human-Computer Symbiosis</span>
+    <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);">Seamless Human-Computer Interaction</span>
     <img src="icons8-technology-100.png" width="40" /> <!-- 新增旋转样式 -->
   </h1>
 </div>
