@@ -1,30 +1,68 @@
 # OmniMate 🤖✨  
-​**The First Real-Time Multimodal Agent for Seamless Human-Computer Symbiosis**​  
-![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square&logo=azurepipelines) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python) [![GitHub stars](https://img.shields.io/github/stars/gaochao350/OmniMate.svg)](https://github.com/gaochao350/OmniMate)[![中文版](https://img.shields.io/badge/language-简体中文-important?logo=github)](https://github.com/gaochao350/OmniMate?lang=zh)![Product Showcase](OmniMate.png)
+![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square&logo=azurepipelines) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python) [![GitHub stars](https://img.shields.io/github/stars/gaochao350/SeamlessHuman-Comp.svg)](https://github.com/gaochao350/SeamlessHuman-Comp)[![中文版](https://img.shields.io/badge/动态切换-中文文档-important?logo=github)](https://github.com/YOUR_USERNAME/eamlessHuman-Comp?lang=zh)![Product Showcase](OmniMate.png)
+<div align="center">
+  <h1> 
+    <img src="https://img.icons8.com/clouds/100/000000/artificial-intelligence.png" width="40"/> 
+    <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);">The First Real-Time Multimodal Agent</span>
+    <span style="color: #28B463;">for</span> 
+    <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);">Seamless Human-Computer Symbiosis</span>
+    <img src="https://img.icons8.com/color/96/000000/brain-3.png" width="40"/>
+  </h1>
+  <hr style="height:2px; border-width:0; background: linear-gradient(90deg, rgba(46,134,193,0) 0%, rgba(46,134,193,0.6) 50%, rgba(46,134,193,0) 100%);">
+</div> 
 
-## 🌟 Revolutionizing Digital Interaction
+## 🌟 Revolutionize AI Agent Interaction
 OmniMate is your intelligent companion that ​**sees**, ​**remembers**, and ​**understands**​ - bridging the gap between human intuition and machine intelligence. Imagine having a digital twin that evolves with your work patterns and anticipates your needs!
 
-```diff
-+ Real-Time Multimodal Perception 👁️🗨️ ![Latency](https://img.shields.io/badge/latency-<500ms-success)
-+ Persistent Memory Architecture 🧠💾 ![Accuracy](https://img.shields.io/badge/recall-92.3%25-brightgreen) 
-+ Adaptive Preference Learning 🎯🔄 ![Compression](https://img.shields.io/badge/compression-85%25%20redundancy-orange)
-```
-## 🚀 Core Features
+
+## OmniMate 技术说明 🚀
 
 <div align="center">
 
-| 🌐 Real-Time Insights | 🧠 Smart Memory | ⚡ Adaptive Assistance |
-|-----------------------|------------------|-------------------------|
-| 🔹 5秒级屏幕动态捕捉<br>🔹 多模态行为融合分析<br>🔹 低延迟流处理(＜500ms) | 🔹 三层记忆架构<br>🔹 BGE-M3语义去重<br>🔹 用户偏好知识图谱 | 🔹 上下文感知问答<br>🔹 自动化工作流推荐<br>🔹 跨场景建议生成 |
+### 🖥️ 实时感知层 | 秒/帧解析
+​**参数**​ ![Latency](https://img.shields.io/badge/截图频率-任意设置-success) 
 
-| 🔒 Privacy Shield | 🎯 Personalization | 🤖 Auto Pilot |
-|-------------------|---------------------|----------------|
-| 🔹 敏感区域动态模糊<br>🔹 AES-256端到端加密<br>🔹 GDPR合规擦除 | 🔹 行为模式自学习<br>🔹 设备间偏好同步<br>🔹 领域专家模式切换 | 🔹 智能会议纪要<br>🔹 教程步骤自动化<br>🔹 代码审查辅助 |
+​**技术**​  
+```vLLM分布式部署``` ```多任务分叉推理```  
+​**优势**​  
+▸ 捕捉视觉/操作/文本三模式同步信号  
+▸ 单帧生成细节描述+语义总结+偏好分析  
+
+---
+
+### 🧠 记忆处理层 | 三层存储结构
+​**模型**​ ![BGE-M3](https://img.shields.io/badge/Embedding-any-blue)  
+​**效能**​ ![Recall](https://img.shields.io/badge/记忆召回-hight-brightgreen)  
+​**机制**​  
+```原始细节``` & ```向量去冗余``` & ```图谱强化```  
+
+
+---
+
+### 🔄 决策输出层 | 动态适应引擎
+​**压缩率**​ ![Redundancy](https://img.shields.io/badge/信息冗余-减少-orange)  
+​**架构**​ ```MCP记忆中心规划``` ```偏好图谱驱动```  
+​**特征**​  
+◈ 实时屏幕状态感知 + 历史记忆检索  
+◈ 用户画像驱动的自适应响应生成  
+​**案例**​  
+▸ 根据GitHub操作历史自动优化仓库创建流程  
+▸ 视频会议总结关联3天前设计稿修改记录
+## 🚀 Core Architecture
+
+<div align="center">
+
+| 感知层              | 处理层              | 应用层              |
+|---------------------|---------------------|---------------------|
+| 屏幕动态捕捉         | 多级记忆存储         | 智能工作流           |
+| 文本轨迹追踪         | 行为模式分析         | 跨场景关联           |
+| 实时流处理           | 偏好预测系统         | 隐私守护机制         |
+
+
 
 </div>
 
-![Feature Timeline](https://via.placeholder.com/800x100.png/2F4F4F/FFFFFF?text=Continuous+Learning+➔+Contextual+Understanding+➔+Proactive+Assistance)
+
 
 ### Key Technology Highlights
 ```bash
