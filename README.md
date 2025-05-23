@@ -63,16 +63,3 @@ OmniMate is your intelligent companion that ​**sees**, ​**remembers**, and �
 
 
 </div>
-
-
-
-### Key Technology Highlights
-```bash
-# 分层记忆检索示例
-curl -X POST https://api.omnimate.ai/memory/query \
-  -H "Authorization: Bearer $TOKEN" \
-  -d '{
-    "context": "current_screen:VSCode", 
-    "query": "最近的GitHub操作记录",
-    "depth": "summary"
-  }'
