@@ -1,6 +1,6 @@
 # OmniMate 🤖✨  
 ​**The First Real-Time Multimodal Agent for Seamless Human-Computer Symbiosis**​  
-![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square&logo=azurepipelines) ![License](https://img.shields.io/badge/license-AGPL--3.0-green?style=flat-square) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python) [![GitHub stars](https://img.shields.io/github/stars/OmniMateAI/core-engine?style=social)](https://github.com/OmniMateAI/core-engine/stargazers)![Product Showcase](OmniMate.png)
+![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square&logo=azurepipelines) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python) [![GitHub stars](https://img.shields.io/github/stars/gaochao350/SeamlessHuman-Comp.svg)](https://github.com/gaochao350/SeamlessHuman-Comp)[![中文版](https://img.shields.io/badge/动态切换-中文文档-important?logo=github)](https://github.com/YOUR_USERNAME/eamlessHuman-Comp?lang=zh)![Product Showcase](OmniMate.png)
 
 ## 🌟 Revolutionizing Digital Interaction
 OmniMate is your intelligent companion that ​**sees**, ​**remembers**, and ​**understands**​ - bridging the gap between human intuition and machine intelligence. Imagine having a digital twin that evolves with your work patterns and anticipates your needs!
