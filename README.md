@@ -1,13 +1,9 @@
 # OmniMate 🤖✨  
 ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square&logo=azurepipelines) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python) [![GitHub stars](https://img.shields.io/github/stars/gaochao350/SeamlessHuman-Comp.svg)](https://github.com/gaochao350/SeamlessHuman-Comp)[![中文版](https://img.shields.io/badge/动态切换-中文文档-important?logo=github)](https://github.com/YOUR_USERNAME/eamlessHuman-Comp?lang=zh)![Product Showcase](OmniMate.png)
+
 <div align="center">
-  <h1> 
-    <img src="https://img.icons8.com/?size=100&id=gShesypkbo1o&format=png&color=000000" width="40"/> 
-    <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);">The First Real-Time Multimodal Agent</span>
-    <span style="color: #28B463;">for</span> 
-    <span style="color: #2E86C1; text-shadow: 2px 2px 4px rgba(46,134,193,0.3);">Seamless Human-Computer Symbiosis</span>
-    <img src="https://img.icons8.com/color/96/000000/brain-3.png" width="40"/>
-  </h1>
+…  </h1>
+</div>
   <hr style="height:2px; border-width:0; background: linear-gradient(90deg, rgba(46,134,193,0) 0%, rgba(46,134,193,0.6) 50%, rgba(46,134,193,0) 100%);">
 </div> 
 
